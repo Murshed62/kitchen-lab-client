@@ -1,0 +1,24 @@
+.error-img{
+    height: 100vh;
+    background: url('../assets/errorPage.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.home-redirect{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    bottom: 10%;
+    left: 67%;
+    background-color: #f0c106;
+    padding: 0 20px;
+    border-radius: 20px;
+    
+}
+.home-redirect:hover{
+    background-color: #CA8A04;
+    transition-duration: .4s;
+}

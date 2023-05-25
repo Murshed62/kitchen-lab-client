@@ -1,0 +1,13 @@
+.chef-img{
+   border-radius: 50px;
+   width: 350px;
+}
+
+@media only screen and (max-width: 776px) {
+   .chef-img{
+    display: none;
+   }
+   .chef-content{
+    margin-right: 50px;
+   }
+  }

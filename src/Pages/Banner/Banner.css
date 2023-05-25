@@ -1,0 +1,35 @@
+.banner-img{
+    width: 100%;
+    height: 100vh;
+    background: url('../../../src/assets/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    position: relative;
+}
+.banner-text{
+position: absolute;
+top: 15%;
+left: 12%;
+
+/* transform: translate(10.5%,50%); */
+}
+@media only screen and (max-width: 776px) {
+  .mobile-res{
+   padding-right: 30px;
+  }
+  .mobile-res h1{
+    width: 100%;
+    font-size: 25px;
+    color: #FBBD23;
+  }
+  .mobile-res p{
+    width: 100%;
+    font-size: 15px;
+  }
+  .banner-img{
+    width: 100%;
+    height: 40vh;
+  }
+}

@@ -1,0 +1,9 @@
+@media screen and (max-width: 776px) {
+   .forMbl{
+    font-size: 20px;
+   }
+   .forMblLink{
+    width: 50px;
+    font-size: 13px;
+   }
+  }
